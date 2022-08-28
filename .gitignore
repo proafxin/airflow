@@ -331,3 +331,4 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/python,visualstudiocode,virtualenv,jupyternotebooks,apachehadoop,macos,linux,windows,java
+/airflow/airflow-webserver.pid
