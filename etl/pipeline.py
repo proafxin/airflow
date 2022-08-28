@@ -131,9 +131,4 @@ def run_pipeline(connection):
     write_to_table(connection=connection, table_name="movie_avg", data=movie_mean)
     write_to_table(connection=connection, table_name="user_avg", data=user_mean)
 
-    return movie_mean, user_mean
-
-
-if __name__ == "__main__":
-    conn = get_connection()
-    run_pipeline(connection=conn)
+    # return movie_mean, user_mean
